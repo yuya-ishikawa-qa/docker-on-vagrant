@@ -11,3 +11,6 @@ mkdir -p /home/vagrant/.local/bin/
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /home/vagrant/.local/bin/docker-compose
 sudo chmod 775 /home/vagrant/.local/bin/docker-compose
 docker-compose -v
+
+sudo yum install git-all
+git --version

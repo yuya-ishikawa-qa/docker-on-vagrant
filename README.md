@@ -1,8 +1,3 @@
-Name
-====
-
-Overview
-
 ## Description
 
 Docker動作環境を作成するVagrantfile群

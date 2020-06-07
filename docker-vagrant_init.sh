@@ -12,5 +12,5 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-
 sudo chmod 775 /home/vagrant/.local/bin/docker-compose
 docker-compose -v
 
-sudo yum install git-all
+sudo yum install -y git-all
 git --version
